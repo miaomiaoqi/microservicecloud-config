@@ -1,14 +1,15 @@
-spring:
+﻿spring:
   profiles:
     active:
     - dev
 ---
 spring:
-  profiles: dev # 开发环境
-  application:
+  profiles: dev     #开发环境
+  application: 
     name: microservicecloud-config-miaoqi-dev
 ---
 spring:
-  profiles: test # 开发环境
-  application:
+  profiles: test   #测试环境
+  application: 
     name: microservicecloud-config-miaoqi-test
+#  请保存为UTF-8格式
